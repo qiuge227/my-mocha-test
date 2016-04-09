@@ -19,4 +19,10 @@ $ mocha test/unit/*.js
 
 ../node_modules/.bin/mocha --reporter mochawesome
 使用内部安装的版本
+
+如果单元测试添加了mocha.opts
+可以自直接
+mocha
+
+但是对于mochawesome，这种方法无效
  */
