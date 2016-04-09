@@ -1,0 +1,22 @@
+{
+  "name": "my-mocha-demos",
+  "version": "1.0.0",
+  "description": "走一遍测试的demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "beth",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-preset-es2015": "^6.6.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mochawesome": "^1.3.2"
+  },
+  "dependencies": {
+    "node-fetch": "^1.5.0",
+    "superagent": "^1.8.3"
+  }
+}
