@@ -1,5 +1,5 @@
-var multiply = require('../../src/multiply');
-var expect = require('chai').expect;
+import multiply from '../../src/multiply';
+import {expect} from 'chai';
 
 describe('乘法函数的测试', function(){
 	it('1乘1等于1', function(){

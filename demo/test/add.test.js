@@ -1,5 +1,7 @@
-var add = require('../src/add.js');
-var expect = require('chai').expect;
+import add from '../src/add.js';
+import chai  from 'chai';
+
+let expect = chai.expect;
 
 describe('加法函数测试', function(){
 	it('1加1等于2', function(){
@@ -25,4 +27,8 @@ $ mocha test/unit/*.js
 mocha
 
 但是对于mochawesome，这种方法无效
+
+
+编译es6
+../node_modules/mocha/bin/mocha --compilers js:babel-core/register
  */
